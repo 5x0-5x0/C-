@@ -56,3 +56,69 @@ int main()
 
 	return 0;
 }
+
+
+int a = 20;
+static void test()  // void是无类型，需要在主函数里面调用。
+{
+	printf("test--%d\n", a);
+	
+}
+
+
+
+//int main()
+//{
+//	test();
+//	{
+//		int a = 10;
+//		printf("%d\n", a);
+//
+//	}
+//	printf("%d\n", a);    //这里a会是未被判定的字符。如果第二个括号外面定义了a就没问题或者有全局变量。
+//	return 0;
+//}
+
+
+
+//extern double b;//从外部的全局变量，申明函数
+//int main()
+//{
+//	printf("%.1f\n", b);
+//	return 0;
+//}
+
+
+
+
+}
+// 变量作用域（1局部。2全局）
+int a = 20;
+static void test()  // void是无类型，需要在主函数里面调用。
+{
+	printf("test--%d\n", a);
+	
+}
+
+
+
+//int main()
+//{
+//	test();
+//	{
+//		int a = 10;
+//		printf("%d\n", a);
+//
+//	}
+//	printf("%d\n", a);    //这里a会是未被判定的字符。如果第二个括号外面定义了a就没问题或者有全局变量。
+//	return 0;
+//}
+
+
+
+//extern double b;//从外部的全局变量，申明函数
+//int main()
+//{
+//	printf("%.1f\n", b);
+//	return 0;
+//}
