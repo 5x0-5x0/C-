@@ -47,7 +47,7 @@ int main()
 {
 	int num1 = 0;
 	int num2 = 0;//初始化 2个变量
-	// scanf是输入函数，这里输入2个整数,输入放入数的时候要取地址&
+	// scanf是输入函数，这里输入2个整数,num就会变成你输入的数，输入放入数的时候要取地址&
 	scanf("%d %d", &num1, &num2); //scanf在VS里面没有，需要define。在文件里改了之后，每次新建源文件，最开始都有define
 	int sum = num1 + num2;
 	printf("%d", sum);
